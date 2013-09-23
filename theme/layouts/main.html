@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  {{> head }}
+  <body data-ng-app='hackdroidApp' data-ng-controller="MainCtrl">
+    <div class="container-fluid">
+      {{> header}}
+        <div class='row-fluid'>
+            <div class='span8'>
+                {{{ content }}}
+            </div>
+            <div class='span4 visible-desktop'>
+                {{{ widgets.googleplus  }}}
+                {{{ widgets.twitterfeed }}}
+            </div>
+        </div>
+      {{> footer }}
+    </div> <!-- /container-fluid -->
+  </body>
+</html>

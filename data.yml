@@ -1,15 +1,14 @@
-title : Blog Title
-tagline: Blog Tagline
+title : Ruhoh Single-page design
+tagline: Using angularJS for page navigation
 author :
-  name : Firstname Lastname
-  email : blah@email.test
-  github : username
-  twitter : username
-  feedburner : feedname
+  name : Dennis Geurts
+  email : dennisg@dennisg.nl
+  github : dennisg
+  twitter : dennisgggg
 
 navigation :
-  - archive
   - tags
   - categories
   - pages
+  - archive
   - about

@@ -1,0 +1,161 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+}
+
+.page-header {
+  padding-bottom: 0px;
+  margin: 20px 0 20px;
+  border-bottom: 1px none #eeeeee;
+}
+
+_object {
+    height: 1px;
+}
+.header {
+    padding: 0;
+    /* margin-bottom: 10px; */
+}
+
+.content {
+    min-height:300px;
+}
+
+.header img {
+    max-height: 200px;
+}
+.bordered {
+    padding-top: 5px;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    border-bottom-style: none;
+    border-right-style: none;
+    border-left-style: none;
+}
+
+.last {
+    border-bottom-style: solid;
+    border-width: 1px;
+}
+
+.span6 {
+}
+
+.header img {
+    padding: -10px;
+    width: 100%;
+}
+
+.img-speaker {
+  -webkit-border-radius: 500px;
+     -moz-border-radius: 500px;
+          border-radius: 500px;
+    padding-right: 10px;
+    float: right;
+    max-width: 25%;
+}
+
+.img-speaker-small {
+  -webkit-border-radius: 500px;
+     -moz-border-radius: 500px;
+          border-radius: 500px;
+    padding-top: 10px;
+    padding-left: 10px;
+    max-width: 50px;
+}
+.center {
+    text-align: center;
+    width: 100%;
+}
+
+
+/** default stuff */
+
+.navbar {
+    margin-bottom: 1px;
+}
+
+.sponsors {
+	list-style-type: none;
+}
+
+.sponsors .img-polaroid {
+	height: 80px;
+	width: auto;
+}
+
+.sponsors .description {
+	margin-left: 5px;
+}
+
+/* Custom container */
+.container-narrow {
+  margin: 0 auto;
+  max-width: 700px;
+}
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+.navbar .nav {
+  float:right;
+}
+
+/* posts index */
+.post > h3.title {
+  position:relative;
+  padding-top:10px;
+}
+.post > h3.title span.date { 
+  position:absolute;
+  right:0;
+  font-size:0.9em;
+}
+.post > .more {
+  margin:10px 0;
+  text-align:left;
+}
+
+/* post-full*/
+.post-full .date {
+  margin-bottom:20px;
+  font-weight:bold;
+}
+
+/* tag_box */
+.tag_box {
+  list-style:none;
+  margin:0;
+  overflow:hidden;
+}
+.tag_box li {
+  line-height:28px;
+}
+.tag_box li i {
+  opacity:0.9;
+}
+.tag_box.inline li {
+  float:left;
+}
+.tag_box a {
+  padding: 3px 6px;
+  margin: 2px;
+  background: #eee;
+  color:#555;
+  border-radius: 3px;
+  text-decoration:none;
+  border:1px dashed #ccc;
+}
+.tag_box a span{
+  vertical-align:super;
+  font-size:0.8em;
+}
+.tag_box a:hover {
+  background-color:#e5e5e5;
+}
+.tag_box a.active {
+  background:#57A957;
+  border:1px solid #4C964D;
+  color:#FFF;
+}

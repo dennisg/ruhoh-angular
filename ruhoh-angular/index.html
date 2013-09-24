@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- theme/head -->
+    <head>
+      <meta charset="utf-8">
+      <title>Home</title>
+      <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+      <link href="http://roboto-webfont.googlecode.com/svn/trunk/roboto.all.css" rel="stylesheet" type="text/css">
+      
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="author" content="Dennis Geurts">
+  
+      <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+      <!--[if lt IE 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+      <![endif]-->
+  
+  	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<script src='/ruhoh-angular/assets/javascripts/bootstrap.min-3817364ad5b9315f1b2865dad814dd30.js'></script>
+<script src='/ruhoh-angular/assets/javascripts/angular/angular.min-820b908c97b22e82b46bd371fdbec52c.js'></script>
+<script src='/ruhoh-angular/assets/javascripts/angular-route/angular-route.min-19df4585a6f8e5325c6aad1fc8eff155.js'></script>
+<script src='/ruhoh-angular/assets/javascripts/angular-resource/angular-resource.min-22e64371ad950c98ffe7897f91a5f2be.js'></script>
+<script src='/ruhoh-angular/assets/javascripts/angular-cookies/angular-cookies.min-d547099c01a10f382ac9695120a7a1cb.js'></script>
+<script src='/ruhoh-angular/assets/javascripts/app-6cbfb63db371f12129a70b4017e9aa57.js'></script>
+<script src='/ruhoh-angular/assets/javascripts/controllers/main-89b93fd47d62c44fd15726dfac939155.js'></script>      
+      <!-- Le styles -->
+<link href='/ruhoh-angular/assets/stylesheets/bootstrap-a503680494d9927b35e02b5759730e9f.css' type='text/css' rel='stylesheet' media='all'>
+<link href='/ruhoh-angular/assets/stylesheets/bootstrap-responsive-871defe8c1a928bcbcc3efcf4a1dde42.css' type='text/css' rel='stylesheet' media='all'>
+<link href='/ruhoh-angular/assets/stylesheets/style-6ceb7e00f0279c86ea5f987836b13416.css' type='text/css' rel='stylesheet' media='all'>
+<link href='/ruhoh-angular/assets/stylesheets/google_prettify/sons-of-obsidian-afb0925bfa2d994f17dab93e13fbf999.css' type='text/css' rel='stylesheet' media='all'>  
+      <!-- Le fav and touch icons -->
+    <!-- Update these with your own images
+      <link rel="shortcut icon" href="images/favicon.ico">
+      <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+      <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+      <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+    -->
+    </head>
+  
+  <!-- end theme/head -->
+  
+  <body data-ng-app='hackdroidApp' data-ng-controller="MainCtrl">
+    <div class="container-fluid">
+      <!-- header.html -->
+      <div class="row-fluid">
+      	<div class='header'>
+              <object data="/ruhoh-angular/assets/media/theme.svg" type="image/svg+xml"></object>
+      	</div>
+      	<!-- navbar.html -->
+      	<div class="navbar navbar-inverse"><!-- navbar-fixed-top -->
+      	      <div class="navbar-inner">
+      	        <div class="container">
+      	          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+      	            <span class="icon-bar"></span>
+      	            <span class="icon-bar"></span>
+      	            <span class="icon-bar"></span>
+      	          </button>
+      	      	  <a href="#/ruhoh-angular/" class="brand">Home</a>
+      	          <div class="nav-collapse collapse">
+      	            <ul class="nav">
+      	              
+      	                <li><a href="#/ruhoh-angular/tags">Tags</a></li>
+      	              
+      	                <li><a href="#/ruhoh-angular/categories">Categories</a></li>
+      	              
+      	                <li><a href="#/ruhoh-angular/pages">Pages</a></li>
+      	              
+      	                <li><a href="#/ruhoh-angular/archive">Archive</a></li>
+      	              
+      	                <li><a href="#/ruhoh-angular/about">About Me</a></li>
+      	            </ul>
+      	          </div>
+      	        </div>
+      	      </div>
+      	</div>
+      	<!-- end navbar.html -->
+      	
+      </div>
+      <!-- end header.html -->
+      
+      <div class="content">
+        <div class='row-fluid'>
+        <!-- start angularjs part -->
+        <div data-ng-view></div>
+        <!-- end angularjs part -->
+        </div>
+      </div>
+      <!-- footer -->
+      <div class="row-fluid">
+            <hr>
+            <div class="footer">
+              <p>&copy; Dennis Geurts 2013
+                with help from <a href="http://ruhoh.com" target="_blank" title="The Definitive Technical Blogging Framework">ruhoh</a>,
+                <a href='http://angularjs.org/'>AngularJS</a>
+                and <a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a>
+              </p>
+            </div>
+      
+          <!-- Google Prettify -->
+<script src="http://cdnjs.cloudflare.com/ajax/libs/prettify/188.0.0/prettify.js"></script>
+<script>
+  var pres = document.getElementsByTagName("pre");
+  for (var i=0; i < pres.length; ++i) {
+    pres[i].className = "prettyprint linenums";
+  }
+  prettyPrint();
+</script>
+<!-- end Google Prettify -->
+          <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-123-12']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+
+      </div>
+      <!-- end footer -->
+      
+    </div>
+  </body>
+</html>

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1024 135">
+    <desc>Angular meets Ruhoh</desc> 
+    <defs>
+        <style type="text/css"><![CDATA[
+            .red {
+                fill: red;
+            }
+            .blue {
+                fill: blue;
+            }
+            @font-face {
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 75pt;
+                src: url('https://themes.googleusercontent.com/font?kit=7KXg6nyyqN8gyMoNwQ7aOQ') format('woff');
+            }
+            svg {
+                background-color: #000;
+            }
+            text {
+                fill: #A4C639;
+                stroke: #A4C639; 
+                font-size: 60pt;
+                font-family: "Roboto";
+                font-stretch: 0.8;
+            }
+        ]]></style>
+    </defs>
+    <g>
+        <text x="60" y="90" transform='scale(1,1)'>AngularJS meets Ruhoh!</text>
+    </g>
+</svg>

@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+  <channel>
+    <title>Ruhoh Single-page design</title>
+    <description>Ruhoh Single-page design</description>
+    <link>http://dennisg.ruhoh.com</link>
+    <pubDate>2013-09-24 19:29:17 +0200</pubDate>
+    <item>
+      <title>Example Post</title>
+      <link>http://dennisg.ruhoh.com/ruhoh-angular/example/example-post</link>
+      <pubDate>2013-09-23</pubDate>
+      <description>&lt;p&gt;This example post content is dynamically loaded using angularJS.&lt;/p&gt;
+
+&lt;p&gt;Have a look at &lt;strong&gt;_root/index.html&lt;/strong&gt;. It&amp;#39;s layout is defined as &amp;#39;angular&amp;#39; and thus
+the theme&amp;#39;s &lt;strong&gt;layouts/angular.html&lt;/strong&gt; file is used as layout.&lt;/p&gt;
+
+&lt;p&gt;This loads some javascript (some provided by angular, an app.js and a controller/main.js)&lt;/p&gt;
+
+&lt;p&gt;Now, when clicking on any resource, we navigate to: &lt;pre&gt;&lt;code&gt;#/&amp;lt;resource&amp;gt;&lt;/code&gt;&lt;/pre&gt;&lt;/p&gt;
+
+&lt;p&gt;instead of &lt;pre&gt;&lt;code&gt;/&amp;lt;resource&amp;gt;&lt;/code&gt;&lt;/pre&gt;
+ This is picked-up by the angularJS router
+which loads the ruhoh-pre-generated static content. Of course in a single page setup. &lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>How to use</title>
+      <link>http://dennisg.ruhoh.com/ruhoh-angular/example/how-to-use</link>
+      <pubDate>2013-09-22</pubDate>
+      <description>&lt;p&gt;There&amp;#39;s not much to it.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;First copy this site&amp;#39;s theme to your ruhoh (~2.0) site source&lt;/li&gt;
+&lt;li&gt;edit your config.yml, make sure you use this theme&lt;/li&gt;
+&lt;li&gt;edit your index.html, it should be empty&lt;/li&gt;
+&lt;li&gt;it&amp;#39;s layout should be: &amp;#39;angular&amp;#39;&lt;/li&gt;
+&lt;li&gt;create a _root/home.html, fill it with whatever you like&lt;/li&gt;
+&lt;li&gt;next, uhm wait! there&amp;#39;s no next ;-)&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+  </channel>
+</rss>

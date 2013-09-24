@@ -4,7 +4,7 @@
 RuhohSpec: "2.1"
 
 production_url: "http://dennisg.ruhoh.com"
-base_path: "#"
+base_path: ""
 
 theme :
   use : "theme"
@@ -19,7 +19,7 @@ _root:
 posts:
   sort: ["date", "desc"]
   permalink: "/:categories/:title/"
-  summary_lines: 20
+  summary_lines: 2
   latest: 5
   rss:
     enable: true
@@ -27,7 +27,7 @@ posts:
   paginator:
     enable: false
     url: "/posts/index/"
-    per_page: 5
+    per_page: 1
     root_page: '/'
 
 asset_pipeline:

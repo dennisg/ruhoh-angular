@@ -6,7 +6,9 @@
       {{> header}}
       <div class="content">
         <div class='row-fluid'>
-        {{{ content }}}
+        <!-- start angularjs part -->
+        <div data-ng-view></div>
+        <!-- end angularjs part -->
         </div>
       </div>
       {{> footer }}

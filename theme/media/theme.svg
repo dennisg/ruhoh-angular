@@ -11,7 +11,7 @@
             @font-face {
                 font-family: 'Roboto';
                 font-style: normal;
-                font-weight: 50;
+                font-weight: 75pt;
                 src: url('https://themes.googleusercontent.com/font?kit=7KXg6nyyqN8gyMoNwQ7aOQ') format('woff');
             }
             svg {
@@ -20,13 +20,13 @@
             text {
                 fill: #A4C639;
                 stroke: #A4C639; 
-                font-size: 100pt;
+                font-size: 60pt;
                 font-family: "Roboto";
                 font-stretch: 0.8;
             }
         ]]></style>
     </defs>
     <g>
-        <text x="10" y="103" transform='scale(1,1)'>AngularJS meets Ruhoh!</text>
+        <text x="60" y="90" transform='scale(1,1)'>AngularJS meets Ruhoh!</text>
     </g>
 </svg>

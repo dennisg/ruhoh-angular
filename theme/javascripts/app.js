@@ -12,5 +12,8 @@ angular.module('hackdroidApp', ['ngRoute','ngResource', 'ngCookies'])
     .when('/:p/:v',        { templateUrl: function(params) {
         return [params.p, params.v].join('/'); 
     }})
+    .when('/:p/:v/:i',        { templateUrl: function(params) {
+        return [params.p, params.v, params.i].join('/'); 
+    }})
         .otherwise({ redirectTo: '/' });
   });
